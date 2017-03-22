@@ -49,9 +49,9 @@ bottomcharmRatio = 4.53
                             \[Alpha]\[Tau]/(1 + b0 \[Alpha]\[Tau] Log[\[Mu]^2/M\[Tau]^2])
                         ];
 (*Running Mass*)
-mq[\[Mu]_]:= lightBare()
-ms[\[Mu]_]:= strangeBare()
-mc[\[Mu]_]:= charmBare()
-mb[\[Mu]_]:= bottomBare()
+mq[\[Mu]_]:= lightBare(\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
+ms[\[Mu]_]:= strangeBare(\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
+mc[\[Mu]_]:= charmBare(\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
+mb[\[Mu]_]:= bottomBare(\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
 End[]
 EndPackage[]
