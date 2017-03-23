@@ -46,12 +46,12 @@ bottomcharmRatio = 4.53 (*HPQCD Collab, PRD91 054508*)
 \[delta]bottomcharmRatio = {0.05,-0.05} (*HPQCD Collab, PRD91 054508*)
 
 (*Condensate Parameters - Sources as stated*)
-\[Alpha]GG = 0.075 (*GeV^4*)
+\[Alpha]GG = 0.07 (*GeV^4; arXiv:1511.05903v3*)
 \[delta]\[Alpha]GG = {0.020,-0.020}
 
-gggGGG = c_ 6 \[Alpha]GG
 Subscript[c,6] = 8.2 (*GeV^2*)
 \[delta]Subscript[c,6] = {1,-1}
+gggGGG = Subscript[c,6] \[Alpha]GG (*arXiv:1511.05903v3*)
 
 Subscript[m,Pi] = 0.13957018 (*GeV*)
 \[delta]Subscript[m,Pi] = {0.00000035,-0.00000035}
@@ -61,11 +61,17 @@ Subscript[f,Pi] = 0.0922 (*arXiv:1509.02220 [hep-ph]*)
 \[delta]Subscript[f,Pi] = {0.0035,-0.0035} (*arXiv:1509.02220 [hep-ph]*)
 Subscript[f,k]= 110.0(*arXiv:1509.02220 [hep-ph]*)
 \[delta]Subscript[f,k] = 110.0(*arXiv:1509.02220 [hep-ph]*)
-mqq = (1/2)Subscript[f,Pi]^2 Subscript[m,Pi]^2
-mss = (1/2)Subscript[f,k]^2 Subscript[m,k]^2
+mqq = (-(1/2)Subscript[f,Pi]^2 Subscript[m,Pi]^2)
+mss = (-(1/2)Subscript[f,k]^2 Subscript[m,k]^2)
 
-M0squared = 0.8 (*GeV^2*)
+M0squared = 0.8 (*GeV^2; arXiv:1511.05903v3*)
 \[delta]M0squared = {0.1,-0.1}
+q\[Sigma]Gq = M0squared(charmlightRatio)mqq
+s\[Sigma]Gs =  M0squared(charmstrangeRatio)mss
+
+\[Kappa] = 0.74 (*arXiv:1511.05903v3*)
+\[Alpha]qqqq = 3.5*10^-4 (*Latorre, Pascual, Narison, Z.Phys.C34 (1987) 347*)
+\[Alpha]ssss = \[Kappa]^2 \[Alpha]qqqq (*Latorre, Pascual, Narison, Z.Phys.C34 (1987) 347*)
 
 (*Running Coupling*)
 M\[Tau] = 1.77699 (*GeV*)
