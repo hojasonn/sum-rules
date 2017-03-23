@@ -49,21 +49,27 @@ bottomcharmRatio = 4.53 (*HPQCD Collab, PRD91 054508*)
 \[Alpha]GG = 0.075 (*GeV^4*)
 \[delta]\[Alpha]GG = {0.020,-0.020}
 
-gggGGG = c_6 \[Alpha]GG
-c_6 = 8.2 (*GeV^2*)
-\[delta]c_6 = {1,-1}
+gggGGG = c_ 6 \[Alpha]GG
+Subscript[c,6] = 8.2 (*GeV^2*)
+\[delta]Subscript[c,6] = {1,-1}
 
-f_\[pi] = 0.0922 (*arXiv:1509.02220 [hep-ph]*)
-\[delta]f_\[pi] = {0.0035,-0.0035} (*arXiv:1509.02220 [hep-ph]*)
-f_K = 110.0(*arXiv:1509.02220 [hep-ph]*)
-\[delta]f_K = 110.0(*arXiv:1509.02220 [hep-ph]*)
+Subscript[m,Pi] = 0.13957018 (*GeV*)
+\[delta]Subscript[m,Pi] = {0.00000035,-0.00000035}
+Subscript[m,k] = 0.493677 (*GeV*)
+\[delta]Subscript[m,k] = {0.000013,-0.000013}
+Subscript[f,Pi] = 0.0922 (*arXiv:1509.02220 [hep-ph]*)
+\[delta]Subscript[f,Pi] = {0.0035,-0.0035} (*arXiv:1509.02220 [hep-ph]*)
+Subscript[f,k]= 110.0(*arXiv:1509.02220 [hep-ph]*)
+\[delta]Subscript[f,k] = 110.0(*arXiv:1509.02220 [hep-ph]*)
+mqq = (1/2)Subscript[f,Pi]^2 Subscript[m,Pi]^2
+mss = (1/2)Subscript[f,k]^2 Subscript[m,k]^2
 
-M_0^2 = Sqrt[0.8] (*GeV*)
-\[delta]M_0^2 = {0.1,-0.1}
+M0squared = 0.8 (*GeV^2*)
+\[delta]M0squared = {0.1,-0.1}
 
 (*Running Coupling*)
 M\[Tau] = 1.77699 (*GeV*)
-\[Alpha]\[Tau] = 0.330
+\[Alpha]\[Tau] = 0.326
 \[delta]\[Alpha]\[Tau] = {0.014,-0.014}
 \[Alpha]Z = 0.1185
 \[delta]\[Alpha]Z = {0.0006,-0.0006}
@@ -73,9 +79,9 @@ M\[Tau] = 1.77699 (*GeV*)
                             \[Alpha]\[Tau]/(1 + b0 \[Alpha]\[Tau] Log[\[Mu]^2/M\[Tau]^2])
                         ];
 (*Running Mass*)
-mq[\[Mu]_]:= lightBare(\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
-ms[\[Mu]_]:= strangeBare(\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
-mc[\[Mu]_]:= charmBare(\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
-mb[\[Mu]_]:= bottomBare(\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
+mq[\[Mu]_]:= lightBare (\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
+ms[\[Mu]_]:= strangeBare (\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
+mc[\[Mu]_]:= charmBare (\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
+mb[\[Mu]_]:= bottomBare (\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
 End[]
 EndPackage[]
