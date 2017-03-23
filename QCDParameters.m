@@ -32,12 +32,12 @@ bottomBare = 4.18 (*GeV*)
 \[delta]bottomBare = {0.04,-0.03}
 
 (*Quark Mass Ratios*)
-strangelightRatio = 0.0273
-\[delta]strangelightRatio  = {0.0007,-0.0007}
+strangelightRatio = 0.0273 (*PDGLive 2016*)
+\[delta]strangelightRatio  = {0.0007,-0.0007} (*PDGLive 2016*)
 charmlightRatio = 322.6 (*Calculated in J.Ho, D. Harnett, T.G. Steele 2017*)
 \[delta]charmlightRatio = {13.6,-13.6} (*Calculated in J.Ho, D. Harnett, T.G. Steele 2017*)
-charmstrangeRatio = 11.72
-\[delta]charmstrangeRatio = {0.25,-0.25}
+charmstrangeRatio = 11.72 (*PDGLive 2016*)
+\[delta]charmstrangeRatio = {0.25,-0.25} (*PDGLive 2016*)
 bottomlightRatio = 1460.7 (*Calculated in J.Ho, D. Harnett, T.G. Steele 2017*)
 \[delta]bottomlightRatio = {64,-64} (*Calculated in J.Ho, D. Harnett, T.G. Steele 2017*)
 bottomstrangeRatio = 52.55 (*HPQCD Collab, PRD91 054508*)
@@ -46,12 +46,20 @@ bottomcharmRatio = 4.53 (*HPQCD Collab, PRD91 054508*)
 \[delta]bottomcharmRatio = {0.05,-0.05} (*HPQCD Collab, PRD91 054508*)
 
 (*Condensate Parameters - Sources as stated*)
+\[Alpha]GG = 0.075 (*GeV^4*)
+\[delta]\[Alpha]GG = {0.020,-0.020}
+
+gggGGG = c_6 \[Alpha]GG
+c_6 = 8.2 (*GeV^2*)
+\[delta]c_6 = {1,-1}
 
 f_\[pi] = 0.0922 (*arXiv:1509.02220 [hep-ph]*)
 \[delta]f_\[pi] = {0.0035,-0.0035} (*arXiv:1509.02220 [hep-ph]*)
 f_K = 110.0(*arXiv:1509.02220 [hep-ph]*)
 \[delta]f_K = 110.0(*arXiv:1509.02220 [hep-ph]*)
 
+M_0^2 = Sqrt[0.8] (*GeV*)
+\[delta]M_0^2 = {0.1,-0.1}
 
 (*Running Coupling*)
 M\[Tau] = 1.77699 (*GeV*)
