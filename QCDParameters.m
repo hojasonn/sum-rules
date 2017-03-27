@@ -16,6 +16,12 @@ ms[\[Mu]]::usage="Running strange quark mass with renormalization scale \[Mu]. D
 mc[\[Mu]]::usage="Running charm quark mass with renormalization scale \[Mu]. Defined as ... (citation)"
 mb[\[Mu]]::usage="Running bottom quark mass with renormalization scale \[Mu]. Defined as ... (citation)"
 
+(*Running Mass*)
+mq[\[Mu]_, error_?IntegerQ:0]:= (lightBare + error*Piecewise[{{\[delta]lightBare[[1]],error == 1},{\[delta]lightBare[[2]],error == -1}}] )(\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
+ms[\[Mu]_, error_?IntegerQ:0]:= (strangeBare + error*Piecewise[{{\[delta]strangeBare[[1]],error == 1},{\[delta]strangeBare[[2]],error == -1}}]) (\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
+mc[\[Mu]_, error_?IntegerQ:0]:= (charmBare + error*Piecewise[{{\[delta]charmBare[[1]],error == 1},{\[delta]charmBare[[2]],error == -1}}]) (\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
+mb[\[Mu]_, error_?IntegerQ:0]:= (bottomBare + error*Piecewise[{{\[delta]bottomBare[[1]],error == 1},{\[delta]bottomBare[[2]],error == -1}}]) (\[Alpha][\[Mu]/\[Alpha][bottomBare]])^(12/25)
+
 Begin["`Private`"]
 (*Constant Parameters*)
 
@@ -84,10 +90,5 @@ M\[Tau] = 1.77699 (*GeV*)
                             b0 = 1/(12 \[Pi]) (33 - 2 nf);
                             \[Alpha]\[Tau]/(1 + b0 \[Alpha]\[Tau] Log[\[Mu]^2/M\[Tau]^2])
                         ];
-(*Running Mass*)
-mq[\[Mu]_]:= lightBare (\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
-ms[\[Mu]_]:= strangeBare (\[Alpha][\[Mu]/\[Alpha][2(*GeV*)]])^(4/9)
-mc[\[Mu]_]:= charmBare (\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
-mb[\[Mu]_]:= bottomBare (\[Alpha][\[Mu]/\[Alpha][charmBare]])^(12/25)
 End[]
 EndPackage[]
