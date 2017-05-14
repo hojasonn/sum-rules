@@ -4,7 +4,7 @@ BeginPackage["sumrules`"]
 Unprotect @@ Names["sumrules`*"];
 ClearAll @@ Names["sumrules`*"];
 
-opts0::usage"This procedures recursively determines the lower bound of the Borel parameter \[Tau] and the optimized continuum parameter \!\(\*SubscriptBox[\(s\), \(0\)]\) such that the two values are self-consistent within specified tolerances. The function takes three real-numbered arguements"
+opts0::usage"This procedures recursively determines the lower bound of the Borel parameter \[Tau] and the optimized continuum parameter \!\(\*SubscriptBox[\(s\), \(0\)]\) such that the two values are self-consistent within specified tolerances. The function takes three real-numbered arguements: a seed value for \!\(\*SubscriptBox[\(s\), \(0\)]\), a seed value for \!\(\*SubscriptBox[\(\[Tau]\), \(min\)]\), and an integer-valued sum rule weight, where 0 indicates the lowest-weighted sum rule."
 
 Begin["`Private`"]
 (*The following are definitions on the upper and lower bound of the Borel parameter \[Tau]. *)
