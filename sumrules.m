@@ -7,6 +7,13 @@ ClearAll @@ Names["sumrules`*"];
 opts0::usage="This procedures recursively determines the lower bound of the Borel parameter \[Tau] and the optimized continuum parameter \!\(\*SubscriptBox[\(s\), \(0\)]\) such that the two values are self-consistent within specified tolerances. The function takes three real-numbered arguements: a seed value for \!\(\*SubscriptBox[\(s\), \(0\)]\), a seed value for \!\(\*SubscriptBox[\(\[Tau]\), \(min\)]\), and an integer-valued sum rule weight, where 0 indicates the lowest-weighted sum rule."
 lowerbound\[Tau]::usage="Defines the lower bound of the Borel parameter \[Tau] as defined by a 10% pole contribution."
 Begin["`Private`"]
+(* THIS SHOULD BE REMOVED IN A FUTURE VERSION TO SOMETHING MORE ROBUST *)
+applyNumericValues = {m -> ((Subscript[\[Alpha], s][\[Alpha], A, \[Nu], MZ]/Subscript[\[Alpha], s][\[Alpha], A, 2, MZ])^(1/A)) 0.003861525679074026`, M ->runningMass[4.18, \[Alpha], A, \[Nu],MZ], \[Nu] -> 4.18,vev[g^3 GGG] -> (8.2) vev[\[Alpha]GG],vev[\[Psi]\[Sigma]G\[Psi]] -> I  (1/M)(massratio(0.8)(vev[mq 
+\!\(\*OverscriptBox[\(q\), \(_\)]\)])) (*Coefficient and ratio translates LPN VEV to our convention*), vev[\[Alpha]GG] -> 0.075,vev[mq 
+\!\(\*OverscriptBox[\(q\), \(_\)]\)] -> -1/2 (0.1304/Sqrt[2.])^2 (0.13957018)^2, \[Alpha] -> 0.1184, A -> 23/12, \[Nu] -> 4.18, Mtau ->1.77686,MZ->91.188,vev[GG] -> vev[\[Alpha]GG]/\[Alpha], massratio -> 1460.7(*1371.25*)}
+(* END OF THINGS TO BE REMOVED IN A FUTURE VERSION*)
+
+
 (*The following are definitions on the upper and lower bound of the Borel parameter \[Tau]. *)
 upperbound\[Tau][k_]:=
 Module[{percent,cond1,cond2},
