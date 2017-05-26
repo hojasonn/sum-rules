@@ -77,10 +77,11 @@ M\[Tau] = 1.77699 (*GeV*)
 \[Delta]\[Alpha]\[Tau] = {0.014,-0.014}
 \[Alpha]Z = 0.1185
 \[Delta]\[Alpha]Z = {0.0006,-0.0006}
-\[Alpha][\[Mu]_] := Module[
-                          {nf = 4, b0},
+\[Alpha][\[Mu]_,nf_] := Module[
+                          {b0},
                             b0 = 1/(12 \[Pi]) (33 - 2 nf);
-                            \[Alpha]\[Tau]/(1 + b0 \[Alpha]\[Tau] Log[\[Mu]^2/M\[Tau]^2])
+                            Switch[nf,4,\[Alpha]\[Tau]/(1 + b0 \[Alpha]\[Tau] Log[\[Mu]^2/M\[Tau]^2]),5,\[Alpha]\[Tau]/(1 + b0 \[Alpha]\[Tau] Log[\[Mu]^2/MZ^2])]
+                            
                         ];
 
 (*Running Mass*)
