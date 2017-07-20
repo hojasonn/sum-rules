@@ -43,8 +43,10 @@ tr/:tr[\[Gamma][5]]:=0
 tr/:tr[\[Gamma][5]**\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]:=0
 tr/:tr[\[Gamma][5]**\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]**\[Gamma][\[Lambda]_]**\[Gamma][\[Sigma]_]]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]&&!SameQ[\[Lambda],5]&&!SameQ[\[Sigma],5]:=4*I*Levi[\[Mu],\[Nu],\[Lambda],\[Sigma]]
 tr/:tr[\[Gamma][id]]:=d
-tr/:tr[NonCommutativeMultiply[a:\[Gamma][_]..,\[Gamma][5],b___]]/;!MemberQ[{a},\[Gamma][5]]:=((-1)^(Length[{a}]))tr[\[Gamma][5]**a**b]
+tr/:tr[NonCommutativeMultiply[a___,b:\[Gamma][_]..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=((-1)^(Length[{b}]))tr[a**\[Gamma][5]**b**c]
+tr/:tr[NonCommutativeMultiply[a___,b:C..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=tr[a**\[Gamma][5]**b**c]
 tr/:tr[NonCommutativeMultiply[a___,\[Gamma][5],b:\[Gamma][_]..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=((-1)^(Length[{b}]))tr[a**b**c]
+tr/:tr[NonCommutativeMultiply[a___,\[Gamma][5],b:C..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=tr[a**b**c]
 sigma[\[Mu]_,\[Nu]_]:=(I/2)*(\[Gamma][\[Mu]]**\[Gamma][\[Nu]]-\[Gamma][\[Nu]]**\[Gamma][\[Mu]])
 (*Define a new Trace*)
 tr/:tr[x_+y_]:=tr[x]+tr[y]
