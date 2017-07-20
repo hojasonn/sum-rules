@@ -19,6 +19,7 @@ id::usage = "Denotes the dxd identity via \[Gamma][id]"
 lam::usage = "Expresses Gell-Man matricies with colour index. lam[a]"
 momentum::usage = "momentum[p,\[Mu]] denotes a momentum four vector with Lorentz index \[Mu] and momentum p."
 sigma::usage = "\!\(\*SubscriptBox[\(\[Sigma]\), \(\[Mu]\[Nu]\)]\) = \!\(\*FractionBox[\(i\), \(2\)]\)[\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Mu]\)]\),\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Nu]\)]\)]"
+C::usage = "Charge conjugation parity operator."
 Begin["`Private`"]
 (*Kronecker Delta in color-space*)
 \[Delta][\[Mu]_,\[Nu]_]/;\[Mu]\[Element]Integers&&\[Nu]\[Element]Integers:=Piecewise[{\[Mu]=\[Nu],1},0]
