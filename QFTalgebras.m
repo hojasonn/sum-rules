@@ -11,6 +11,7 @@ $Assumptions=gs\[Element]Complexes;
 Protect[{m,M,gs,d}];
 
 \[Gamma]::usage = "Dirac Matrix. \[Gamma][\[Mu]], \[Gamma][5], \[Gamma][id] all valid options."
+\[Gamma]T::usage = "Dirac Matrix transpose."
 tr::usage = "Defines a Trace environment for QFT calculations"
 \[Delta]::usage = "\[Delta][\[Mu],\[Nu]] defines the Kronecker Delta."
 g::usage = "Metric tensor: g[\[Mu],\[Nu]]"
@@ -19,6 +20,7 @@ id::usage = "Denotes the dxd identity via \[Gamma][id]"
 lam::usage = "Expresses Gell-Man matricies with colour index. lam[a]"
 momentum::usage = "momentum[p,\[Mu]] denotes a momentum four vector with Lorentz index \[Mu] and momentum p."
 sigma::usage = "\!\(\*SubscriptBox[\(\[Sigma]\), \(\[Mu]\[Nu]\)]\) = \!\(\*FractionBox[\(i\), \(2\)]\)[\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Mu]\)]\),\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Nu]\)]\)]"
+C::usage = "Charge conjugation parity operator."
 Begin["`Private`"]
 (*Kronecker Delta in color-space*)
 \[Delta][\[Mu]_,\[Nu]_]/;\[Mu]\[Element]Integers&&\[Nu]\[Element]Integers:=Piecewise[{\[Mu]=\[Nu],1},0]
@@ -41,18 +43,24 @@ tr/:tr[\[Gamma][5]]:=0
 tr/:tr[\[Gamma][5]**\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]:=0
 tr/:tr[\[Gamma][5]**\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]**\[Gamma][\[Lambda]_]**\[Gamma][\[Sigma]_]]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]&&!SameQ[\[Lambda],5]&&!SameQ[\[Sigma],5]:=4*I*Levi[\[Mu],\[Nu],\[Lambda],\[Sigma]]
 tr/:tr[\[Gamma][id]]:=d
-tr/:tr[NonCommutativeMultiply[a:\[Gamma][_]..,\[Gamma][5],b___]]/;!MemberQ[{a},\[Gamma][5]]:=((-1)^(Length[{a}]))tr[\[Gamma][5]**a**b]
+tr/:tr[NonCommutativeMultiply[a___,b:\[Gamma][_]..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=((-1)^(Length[{b}]))tr[a**\[Gamma][5]**b**c]
+tr/:tr[NonCommutativeMultiply[a___,b:C..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=tr[a**\[Gamma][5]**b**c]
 tr/:tr[NonCommutativeMultiply[a___,\[Gamma][5],b:\[Gamma][_]..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=((-1)^(Length[{b}]))tr[a**b**c]
+tr/:tr[NonCommutativeMultiply[a___,\[Gamma][5],b:C..,\[Gamma][5],c___]]/;!MemberQ[{b},\[Gamma][5]]:=tr[a**b**c]
 sigma[\[Mu]_,\[Nu]_]:=(I/2)*(\[Gamma][\[Mu]]**\[Gamma][\[Nu]]-\[Gamma][\[Nu]]**\[Gamma][\[Mu]])
 (*Define a new Trace*)
 tr/:tr[x_+y_]:=tr[x]+tr[y]
 tr/:tr[\[Alpha]_ **A__]/;NumberQ[\[Alpha]]:=\[Alpha] tr[A]
 (*Trace Theorems*)
-tr/:tr[A_]/;!MemberQ[A,\[Gamma][5]]&&FreeQ[A,lam[__]] &&FreeQ[A,m]&&FreeQ[A,M]&& FreeQ[A,_Complex] && OddQ[Length[A]] && MemberQ[A,Repeated[\[Gamma][_]]]:=0
+tr/:tr[A__]/;!MemberQ[A,\[Gamma][5]]&&FreeQ[A,lam[__]] &&FreeQ[A,m]&&FreeQ[A,M]&& FreeQ[A,_Complex]&& FreeQ[A,C]&& FreeQ[A,\[Gamma]T] && OddQ[Length[A]] && MemberQ[A,Repeated[\[Gamma][_]]]:=0
 tr/:tr[\[Gamma][a_]**\[Gamma][b_]]/;!IntegerQ[a]&&!IntegerQ[b]:=4*g[a,b]
-tr/:tr[x__]/;EvenQ[Length[x]]&&Length[x]>2&&!MemberQ[x,\[Gamma][5]]&&MemberQ[x,Repeated[\[Gamma][_]]]&&FreeQ[x,lam[__]] && FreeQ[x,_Complex]&&FreeQ[x,momentum[__]]&&FreeQ[x,m]&&FreeQ[x,M]:=Sum[((-1)^n)*g[Level[x[[1]],1][[1]],Level[x[[n]],1][[1]]]*tr[Drop[Drop[x,{1}],{n-1}]],{n,2,Length[x]}]
+tr/:tr[x__]/;EvenQ[Length[x]]&&Length[x]>2&&!MemberQ[x,\[Gamma][5]]&&MemberQ[x,Repeated[\[Gamma][_]]]&&FreeQ[x,lam[__]]&&FreeQ[x,C]&&FreeQ[x,\[Gamma]T[_]] && FreeQ[x,_Complex]&&FreeQ[x,momentum[__]]&&FreeQ[x,m]&&FreeQ[x,M]:=Sum[((-1)^n)*g[Level[x[[1]],1][[1]],Level[x[[n]],1][[1]]]*tr[Drop[Drop[x,{1}],{n-1}]],{n,2,Length[x]}]
 tr/:tr[A___**a_*B_**C___]/;MemberQ[B,\[Delta][_,_]]||MemberQ[B,momentum[_,_]]||MemberQ[B,d]:=B*tr[A**a**C]
 tr/:tr[\[Gamma][a_]]:=0
+(*Charge Conjugation Operator*)
+tr/:tr[A___**C**C**B___]:=-tr[A**B]
+(*tr/:tr[A___**C**\[Gamma]T[\[Mu]_]**C**B___]:=tr[A**\[Gamma][\[Mu]]**B]*)
+tr/:tr[A___**C**\[Gamma][\[Mu]_]**C**B___]:=tr[A**\[Gamma]T[\[Mu]]**B]
 (*Non-commutative Multiply*)
 Unprotect[NonCommutativeMultiply];
 ClearAll[NonCommutativeMultiply]
@@ -79,8 +87,8 @@ NonCommutativeMultiply/:NonCommutativeMultiply[A___,momentum[p_,\[Mu]_]\[Gamma][
 SetAttributes[NonCommutativeMultiply,{Flat,OneIdentity}]
 Protect[NonCommutativeMultiply];
 (*Four Vectors*)
-tr/:tr[A___**p_**B___]/;FreeQ[p,\[Gamma][_]]&&FreeQ[p,lam[_]]&&FreeQ[p,\[Gamma][id]]:=p tr[A**B]
-tr/:tr[A___*p_*B___]/;FreeQ[p,\[Gamma][_]]&&FreeQ[p,lam[_]]&&FreeQ[p,\[Gamma][id]]:=p tr[A**B]
+tr/:tr[A___**p_**B___]/;FreeQ[p,\[Gamma][_]]&&FreeQ[p,lam[_]]&&FreeQ[p,\[Gamma][id]]&&FreeQ[p,C]&&FreeQ[p,\[Gamma]T[_]]:=p tr[A**B]
+tr/:tr[A___*p_*B___]/;FreeQ[p,\[Gamma][_]]&&FreeQ[p,lam[_]]&&FreeQ[p,\[Gamma][id]]&&FreeQ[p,C]&&FreeQ[p,\[Gamma]T[_]]:=p tr[A**B]
 momentum/:momentum[a_*p_,\[Nu]_]/;a\[Element]Complexes:=a*momentum[p,\[Nu]]
 momentum/:momentum[p_,\[Mu]_]momentum[q_,\[Mu]_]:=p.q
 momentum/:momentum[p_,\[Mu]_]^2:=p.p
