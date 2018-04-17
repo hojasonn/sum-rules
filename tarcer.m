@@ -4,6 +4,7 @@ BeginPackage["tarcer`"]
 Unprotect @@ Names["tarcer`*"];
 ClearAll @@ Names["tarcer`*"];
 (*Definitions copied from "2016-10-28 Master Sheet V3.7.nb"*)
+d::usage = "Globa dim-reg parameter."
 Tarce::usage = "Takes two-loop massive/massless integrals and formats them into 
 an appropriate form for TARCER to digest. Expression is defined according to conventions 
 summarized in original TARCER paper (https://arxiv.org/pdf/hep-ph/9801383.pdf). 
