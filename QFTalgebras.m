@@ -16,11 +16,13 @@ tr::usage = "Defines a Trace environment for QFT calculations"
 \[Delta]::usage = "\[Delta][\[Mu],\[Nu]] defines the Kronecker Delta."
 g::usage = "Metric tensor: g[\[Mu],\[Nu]]"
 id::usage = "Denotes the dxd identity via \[Gamma][id]"
-(*Levi::usage = "Levi Civita symbol in 4D"*)
+Levi::usage = "Levi Civita symbol in 4D"
 lam::usage = "Expresses Gell-Man matricies with colour index. lam[a]"
 momentum::usage = "momentum[p,\[Mu]] denotes a momentum four vector with Lorentz index \[Mu] and momentum p."
 sigma::usage = "\!\(\*SubscriptBox[\(\[Sigma]\), \(\[Mu]\[Nu]\)]\) = \!\(\*FractionBox[\(i\), \(2\)]\)[\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Mu]\)]\),\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Nu]\)]\)]"
 C::usage = "Charge conjugation parity operator."
+dSym::usage = "symmetric structure constant."
+(*f::usage = "asymmetric structure constant."*)
 Begin["`Private`"]
 (*Kronecker Delta in color-space*)
 \[Delta][\[Mu]_,\[Nu]_]/;\[Mu]\[Element]Integers&&\[Nu]\[Element]Integers:=Piecewise[{\[Mu]=\[Nu],1},0]
@@ -52,6 +54,7 @@ sigma[\[Mu]_,\[Nu]_]:=(I/2)*(\[Gamma][\[Mu]]**\[Gamma][\[Nu]]-\[Gamma][\[Nu]]**\
 tr/:tr[x_+y_]:=tr[x]+tr[y]
 tr/:tr[\[Alpha]_ **A__]/;NumberQ[\[Alpha]]:=\[Alpha] tr[A]
 (*Trace Theorems*)
+tr/:tr[A__]/;MemberQ[A,\[Gamma][5]]&&FreeQ[A,lam[__]] &&FreeQ[A,m]&&FreeQ[A,M]&& FreeQ[A,_Complex]&& FreeQ[A,C]&& FreeQ[A,\[Gamma]T] && EvenQ[Length[A]] && MemberQ[A,Repeated[\[Gamma][_]]]:=0
 tr/:tr[A__]/;!MemberQ[A,\[Gamma][5]]&&FreeQ[A,lam[__]] &&FreeQ[A,m]&&FreeQ[A,M]&& FreeQ[A,_Complex]&& FreeQ[A,C]&& FreeQ[A,\[Gamma]T] && OddQ[Length[A]] && MemberQ[A,Repeated[\[Gamma][_]]]:=0
 tr/:tr[\[Gamma][a_]**\[Gamma][b_]]/;!IntegerQ[a]&&!IntegerQ[b]:=4*g[a,b]
 tr/:tr[x__]/;EvenQ[Length[x]]&&Length[x]>2&&!MemberQ[x,\[Gamma][5]]&&MemberQ[x,Repeated[\[Gamma][_]]]&&FreeQ[x,lam[__]]&&FreeQ[x,C]&&FreeQ[x,\[Gamma]T[_]] && FreeQ[x,_Complex]&&FreeQ[x,momentum[__]]&&FreeQ[x,m]&&FreeQ[x,M]:=Sum[((-1)^n)*g[Level[x[[1]],1][[1]],Level[x[[n]],1][[1]]]*tr[Drop[Drop[x,{1}],{n-1}]],{n,2,Length[x]}]
@@ -112,7 +115,7 @@ tr/:tr[A___**lam[a_,b_,c_]**B___]:=lam[a,b,c]tr[A**B]
 
 tr/:tr[lam[a_]**lam[b_]]:=2\[Delta][a,b] 
 tr/:tr[lam[a_]**lam[b_]**lam[c_]]:=2(dSym[a,b,c]+I*f[a,b,c])
-tr/:tr[lam[a_]**lam[b_]**lam[c_]**lam[d_]]:=(4/3)(\[Delta][a,b]\[Delta][c,d]-\[Delta][a,c]\[Delta][b,d]+\[Delta][a,d]\[Delta][b,c])+2(dSym[a,b,r]dSym[c,d,r]-dSym[a,c,r]dSym[d,b,r]+dSym[a,d,r]dSym[b,c,r])+2I(dSym[a,b,r]f[c,a,r]-dSym[a,c,r]f[a,b,r]+dSym[a,d,r]f[b,c,r])
+tr/:tr[lam[a_]**lam[b_]**lam[c_]**lam[d_]]:=With[{r=Unique[\[Theta]]},(4/3)(\[Delta][a,b]\[Delta][c,d]-\[Delta][a,c]\[Delta][b,d]+\[Delta][a,d]\[Delta][b,c])+2(dSym[a,b,r]dSym[c,d,r]-dSym[a,c,r]dSym[d,b,r]+dSym[a,d,r]dSym[b,c,r])+2I(dSym[a,b,r]f[c,d,r]-dSym[a,c,r]f[d,b,r]+dSym[a,d,r]f[b,c,r])]
 
 lam/:lam[a_,\[Alpha]1_,\[Alpha]4_]**\[Gamma][id]:=lam[a,\[Alpha]1,\[Alpha]4]
 lam/:\[Gamma][id]**lam[a_,\[Alpha]1_,\[Alpha]4_]:=lam[a,\[Alpha]1,\[Alpha]4]
@@ -135,12 +138,12 @@ StrucSum1/:StrucSum1[a_,b_,c_,d_,r_]:=0
 
 StrucSum2[a_,b_,c_,d_,r_]:=f[a,b,r]dSym[c,d,r]+f[a,c,r]dSym[d,b,r]+f[a,d,r]dSym[b,c,r]
 StrucSum2/:StrucSum2[a_,b_,c_,d_,r_]:=0
-
-dSym/:dSym[a_,b_,c_]/;Signature[{a,b,c}]==0:=0
 dSym/:dSym[a_,b_,c_]dSym[d_,b_,c_]:=(3-3/4)\[Delta][a,b]*)
-dSym/:dSym[a_,b_,c_]/;Signature[{a,b,c}]==0:=0
-(*dSym/:dSym[a_,b_,c_]dSym[d_,b_,c_]:=(3-3/4)\[Delta][a,b]*)
-
+dSym/:dSym[a_,b_,c_]/;Signature[{a,b,c}]==-1:=dSym[Sort[{a,b,c}][[1]],Sort[{a,b,c}][[2]],Sort[{a,b,c}][[3]]]
+dSym/:dSym[a_,b_,c_]/;SameQ[a,b]||SameQ[b,c]||SameQ[c,a]:=0
+dSym/:dSym[a_,b_,c_]dSym[d_,b_,c_]:=(3-4/3)\[Delta][a,d]
+dSym/:dSym[a_,b_,c_]dSym[a_,b_,c_]:=(3-4/3)8
+dSym/:dSym[_,_,_]f[_,_,_]:=0
 (*Levi-Civita Tensor*)
 (*Defined as if all indices were up*)
 Levi/:Levi[\[Mu]_,\[Nu]_,\[Rho]_,\[Sigma]_]Levi[\[Mu]_,\[Upsilon]_,\[Eta]_,\[Lambda]_]/;!SameQ[\[Nu],\[Upsilon]]:=-(d-3)(g[\[Nu],\[Upsilon]](g[\[Rho],\[Eta]]g[\[Sigma],\[Lambda]]-g[\[Rho],\[Lambda]]g[\[Sigma],\[Eta]])+g[\[Nu],\[Eta]](g[\[Rho],\[Lambda]]g[\[Sigma],\[Upsilon]]-g[\[Rho],\[Upsilon]]g[\[Sigma],\[Lambda]])+g[\[Nu],\[Lambda]](g[\[Rho],\[Upsilon]]g[\[Sigma],\[Eta]]-g[\[Rho],\[Eta]]g[\[Sigma],\[Upsilon]]))

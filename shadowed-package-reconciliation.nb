@@ -1,0 +1,169 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5772,        159]
+NotebookOptionsPosition[      3997,        115]
+NotebookOutlinePosition[      4745,        140]
+CellTagsIndexPosition[      4619,        134]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"<<", 
+  "\"\</home/hojasonn/Documents/ResearchProjects/RecodingProject/sum-rules/\
+applyIntegrals.m\>\""}], "\[IndentingNewLine]", 
+ RowBox[{"<<", 
+  "\"\</home/hojasonn/Documents/ResearchProjects/RecodingProject/sum-rules/\
+QFTalgebras.m\>\""}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.745669432460298*^9, 3.745669488644678*^9}, {
+   3.745671453219646*^9, 3.745671492664894*^9}, {3.7456721769490757`*^9, 
+   3.7456721864157476`*^9}, 3.7456722563942957`*^9, {3.745672289588973*^9, 
+   3.7456723254943953`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"2e52cdff-67eb-46ff-9203-1b9ac7f047a0"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "TagSetDelayed","tagnf",
+   "\"Tag \\!\\(\\*RowBox[{\\\"dSym\\\"}]\\) not found in \\!\\(\\*RowBox[{\\\
+\"0\\\", \\\" \\\", TemplateBox[List[\\\"\\\\\\\"f\\\\\\\"\\\", \
+RowBox[List[\\\"{\\\", RowBox[List[\\\"_\\\", \\\",\\\", \\\"_\\\", \
+\\\",\\\", \\\"_\\\"]], \\\"}\\\"]]], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]}]\\).\"",2,7,2,26101788412851317977,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.745671493492722*^9, 3.7456721776958103`*^9, 3.745672258816897*^9, {
+   3.745672293276366*^9, 3.745672326273595*^9}},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"55c59fec-bc81-44da-8a66-7aa0051f2beb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["d"], "Input",
+ CellChangeTimes->{3.7456696167253942`*^9},
+ CellLabel->"In[3]:=",ExpressionUUID->"34e9c215-e570-4a29-b85c-f6507a388195"],
+
+Cell[BoxData["d"], "Output",
+ CellChangeTimes->{3.745669617108651*^9, 3.745672311229195*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"847c23a2-e0fb-4300-bafb-f1869fecebcb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "applyIntegrals"}]], "Input",
+ CellChangeTimes->{{3.7456696186544037`*^9, 3.7456696376717873`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"92b0a824-d191-46a8-971c-b8275a6aee16"],
+
+Cell[BoxData["\<\"Massless integration procedure. Syntax \
+applyIntegrals[expression_,rootarg_,arg1_,arg2_]\"\>"], "Print", "PrintUsage",
+ 
+ CellChangeTimes->{3.7456723359683647`*^9},
+ CellTags->
+  "Info93745701135-5015975",ExpressionUUID->"d35ec3b6-cf22-49a9-aa08-\
+5d664a698c62"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "momentum"}]], "Input",
+ CellChangeTimes->{{3.7456696417513847`*^9, 3.745669644602167*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"ae1572b0-9365-4404-a1c9-0bbe2f73d02b"],
+
+Cell[BoxData["\<\"momentum[p,\[Mu]] denotes a momentum four vector with \
+Lorentz index \[Mu] and momentum p.\"\>"], "Print", "PrintUsage",
+ CellChangeTimes->{3.745672330074809*^9},
+ CellTags->
+  "Info83745701129-5015975",ExpressionUUID->"8ad5bc7c-ffdb-4583-9717-\
+fba51fc71334"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"g", "[", 
+   RowBox[{"\[Mu]", ",", "\[Nu]"}], "]"}], 
+  RowBox[{"momentum", "[", 
+   RowBox[{"p", ",", "\[Mu]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.745669652908173*^9, 3.745669661801255*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"20826d4a-b604-461c-9af7-b658516ffe7b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"g", "[", 
+   RowBox[{"\[Mu]", ",", "\[Nu]"}], "]"}], " ", 
+  RowBox[{"momentum", "[", 
+   RowBox[{"p", ",", "\[Mu]"}], "]"}]}]], "Output",
+ CellChangeTimes->{{3.7456696575343018`*^9, 3.74566966219458*^9}},
+ CellLabel->"Out[12]=",ExpressionUUID->"96d0619e-a7f8-4b0e-a0f9-11c2dfe91088"]
+}, Open  ]]
+},
+WindowSize->{808, 621},
+WindowMargins->{{279, Automatic}, {7, Automatic}},
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info93745701135-5015975"->{
+  Cell[2513, 70, 281, 6, 46, "Print",ExpressionUUID->"d35ec3b6-cf22-49a9-aa08-5d664a698c62",
+   CellTags->"Info93745701135-5015975"]},
+ "Info83745701129-5015975"->{
+  Cell[3031, 86, 279, 5, 46, "Print",ExpressionUUID->"8ad5bc7c-ffdb-4583-9717-fba51fc71334",
+   CellTags->"Info83745701129-5015975"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info93745701135-5015975", 4296, 125},
+ {"Info83745701129-5015975", 4461, 128}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 629, 11, 147, "Input",ExpressionUUID->"2e52cdff-67eb-46ff-9203-1b9ac7f047a0"],
+Cell[1212, 35, 697, 14, 27, "Message",ExpressionUUID->"55c59fec-bc81-44da-8a66-7aa0051f2beb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1946, 54, 149, 2, 31, "Input",ExpressionUUID->"34e9c215-e570-4a29-b85c-f6507a388195"],
+Cell[2098, 58, 170, 2, 35, "Output",ExpressionUUID->"847c23a2-e0fb-4300-bafb-f1869fecebcb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2305, 65, 205, 3, 31, "Input",ExpressionUUID->"92b0a824-d191-46a8-971c-b8275a6aee16"],
+Cell[2513, 70, 281, 6, 46, "Print",ExpressionUUID->"d35ec3b6-cf22-49a9-aa08-5d664a698c62",
+ CellTags->"Info93745701135-5015975"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2831, 81, 197, 3, 31, "Input",ExpressionUUID->"ae1572b0-9365-4404-a1c9-0bbe2f73d02b"],
+Cell[3031, 86, 279, 5, 46, "Print",ExpressionUUID->"8ad5bc7c-ffdb-4583-9717-fba51fc71334",
+ CellTags->"Info83745701129-5015975"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3347, 96, 312, 7, 31, "Input",ExpressionUUID->"20826d4a-b604-461c-9af7-b658516ffe7b"],
+Cell[3662, 105, 319, 7, 35, "Output",ExpressionUUID->"96d0619e-a7f8-4b0e-a0f9-11c2dfe91088"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
