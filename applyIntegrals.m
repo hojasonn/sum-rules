@@ -36,7 +36,7 @@ momentumList=Cases[Numerator[expression],momentum[arg1,_],{0,1}];
 (*indexList keep track of the indicies of the integratable momentum[arg1,index] in the numerator*)
 indexList=Table[momentumList[[i,2]],{i,1,Length[momentumList]}];
 (*coeffRank summarizes all sources of possible vectors*)
-coeffRank=2exponentListNum[[1]]+exponentListNum[[2]]+exponentListNum[[3]]+exponentListNum[[4]]+exponentListNum[[5]]+Length[momentumList];
+coeffRank=2exponentListNum[[1]]+exponentListNum[[2]]+exponentListNum[[3]]+exponentListNum[[4]]+exponentListNum[[5]]+exponentListNum[[6]]+exponentListNum[[7]]+Length[momentumList];
 (*by integrating, we rip apart the dot products and leave four-vectors that match with the integralDef indices.*)
 rootArgVecCount=(exponentListNum[[2]]+exponentListNum[[3]]);
 arg2VecCount=(exponentListNum[[4]]+exponentListNum[[5]]);
@@ -96,7 +96,7 @@ Switch[coeffRank,
 			5,integralDef[rootarg,exponentListDenom[[1]],exponentListDenom[[2]]+exponentListDenom[[3]],indexList[[1]],indexList[[2]],indexList[[3]],indexList[[4]],indexList[[5]]]
 			]
 	]
-]//Expand
+](*//Expand*)
 applyIntegrals/: applyIntegrals[a_Plus,x_,y_,z_]:=applyIntegrals[#,x,y,z]&/@a
 
 End[]
