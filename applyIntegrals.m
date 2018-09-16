@@ -98,6 +98,8 @@ Switch[coeffRank,
 	]
 ](*//Expand*)
 applyIntegrals/: applyIntegrals[a_Plus,x_,y_,z_]:=applyIntegrals[#,x,y,z]&/@a
+applyIntegrals/: applyIntegrals[a_Plus,x1_,x2_,x3_,x4_]:=applyIntegrals[#,x1,x2,x3,x4]&/@a
+
 
 End[]
 
