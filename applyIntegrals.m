@@ -42,7 +42,7 @@ rootArgVecCount=(exponentListNum[[2]]+exponentListNum[[3]]);
 arg2VecCount=(exponentListNum[[4]]+exponentListNum[[5]]);
 arg3VecCount=(exponentListNum[[6]]+exponentListNum[[7]]);
 (*populated list of dummy indicies that should ultimately be contracted out by the end of the Module. Perhaps these should be protected...*)
-uniqueIndexList={index1,index2,index3,index4,index5,index6};
+uniqueIndexList={index1,index2,index3,index4,index5,index6,index7,index8};
 rootArgMomentum=If[rootArgVecCount>0,Times@@Table[momentum[rootarg,uniqueIndexList[[i]]],{i,1,rootArgVecCount}],1];
 (*if vectors of arg2 exist from dot products being integrated over, multiply them back into the expression. 
 Table iterations indicate that this should proceed after any rootArgMomentum vectors*)

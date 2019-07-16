@@ -22,7 +22,7 @@ momentum::usage = "momentum[p,\[Mu]] denotes a momentum four vector with Lorentz
 sigma::usage = "\!\(\*SubscriptBox[\(\[Sigma]\), \(\[Mu]\[Nu]\)]\) = \!\(\*FractionBox[\(i\), \(2\)]\)[\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Mu]\)]\),\!\(\*SubscriptBox[\(\[Gamma]\), \(\[Nu]\)]\)]"
 C::usage = "Charge conjugation parity operator."
 dSym::usage = "symmetric structure constant."
-(*f::usage = "asymmetric structure constant."*)
+f::usage = "asymmetric structure constant."
 Begin["`Private`"]
 (*Kronecker Delta in color-space*)
 \[Delta][\[Mu]_,\[Nu]_]/;\[Mu]\[Element]Integers&&\[Nu]\[Element]Integers:=Piecewise[{\[Mu]=\[Nu],1},0]

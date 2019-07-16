@@ -1,0 +1,998 @@
+
+
+Sun Sep 16 17:27:14 2018
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-33-generic (#36-Ubuntu SMP Wed Aug 15 16:00:05 UTC 2018) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+
+
+Sun Sep 16 17:27:29 2018
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-33-generic (#36-Ubuntu SMP Wed Aug 15 16:00:05 UTC 2018) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_mst_post_read_fixup_warn: magic: 0x00000000  size: 1024   usa_ofs: 0  usa_count: 0: Invalid argument
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
+ntfs_attr_find: Corrupt inode (-1): Input/output error
