@@ -35,7 +35,7 @@ Begin["`Private`"]
 (*Gamma Matrices*)
 \[Gamma]/:\[Gamma][\[Mu]_]**\[Gamma][\[Mu]_]/;!SameQ[\[Mu],5]:=d
 \[Gamma]/:\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]**\[Gamma][\[Mu]_]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]:=(2-d)\[Gamma][\[Nu]]
-\[Gamma]/:\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]**\[Gamma][\[Lambda]_]**\[Gamma][\[Mu]_]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]&&!SameQ[\[Lambda],5]:=d*g[\[Nu],\[Lambda]]
+\[Gamma]/:\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]**\[Gamma][\[Lambda]_]**\[Gamma][\[Mu]_]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]&&!SameQ[\[Lambda],5]:=4*g[\[Nu],\[Lambda]]-(4-d)\[Gamma][\[Nu]]**\[Gamma][\[Lambda]]
 \[Gamma]/:\[Gamma][\[Mu]_]**\[Gamma][\[Nu]_]**\[Gamma][\[Lambda]_]**\[Gamma][\[Sigma]_]**\[Gamma][\[Mu]_]/;!SameQ[\[Mu],5]&&!SameQ[\[Nu],5]&&!SameQ[\[Lambda],5]&&!SameQ[\[Sigma],5]:=(2-d)\[Gamma][\[Nu]]**\[Gamma][\[Lambda]]**\[Gamma][\[Sigma]]
 \[Gamma]/:\[Gamma][id]**A_/;FreeQ[A,_Complex]:=A
 \[Gamma]/:A_**\[Gamma][id]/;FreeQ[A,_Complex]:=A
